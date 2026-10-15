@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f3;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}   
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+button:hover {
+    opacity: 0.8;
+}
+.add-btn {
+    background: #28a745;
+}
+.upd-btn {
+    background: #17a2b8;
+    margin-right: 5px;
+}
+.del-btn {
+    background: #dc3545;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background: #6c757d;
+    color: white;
+}
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
